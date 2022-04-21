@@ -1,3 +1,4 @@
 class Phrase:
     #this is the phrase class to contain call my phrase attributes
-    pass
+    def __init__(self, phrase):
+        print(lower(phrase))
