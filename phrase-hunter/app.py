@@ -4,6 +4,7 @@ if __name__ == "__main__":
 
     game = game.Game()
     print(game.active_phrase)
+    game.active_phrase.display(game.guesses)
     
 
     

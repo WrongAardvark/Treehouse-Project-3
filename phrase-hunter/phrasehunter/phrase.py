@@ -1,6 +1,15 @@
+import game
+
 class Phrase:
-    #this is the phrase class to contain call my phrase attributes
+    
     def __init__(self, phrase):
+        self.phrase = phrase
         
 
-    def display(self,guesses):
+    def display(self, guesses):
+
+        for letter in self.phrase:
+            if letter in self.phrase:
+                print(f"{letter}", end=" ")
+            else:
+                print("_", end=" ")

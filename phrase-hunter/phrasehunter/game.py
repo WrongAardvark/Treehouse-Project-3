@@ -8,6 +8,13 @@ class Game:
         self.active_phrase = random.choice(self.phrases)
         self.guesses = []
 
+        def display(self, guesses):
+
+            for letter in self.phrase:
+                if letter in self.phrase:
+                    print(f"{letter}", end=" ")
+                else:
+                    print("_", end=" ")
     
         
 
