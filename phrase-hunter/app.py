@@ -2,9 +2,9 @@ from phrasehunter import game
 
 if __name__ == "__main__":
 
-    game = game.Game()
-    print(game.active_phrase)
-    game.active_phrase.display(game.guesses)
+    game = game.Game
+    game.get_phrase_list()
+    print(game.phrases)
     
 
     
